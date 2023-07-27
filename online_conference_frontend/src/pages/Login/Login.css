@@ -1,0 +1,216 @@
+/* css desgin  */
+/* https://www.codingnepalweb.com/login-signup-form-html-css-javascript/  */
+
+
+.container-login{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
+
+.container-login .form{
+    position: absolute;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #FFF;
+}
+
+.container-login header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
+
+.container-login .form .field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.container-login .field input,
+.container-login .field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+.container-login .field input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid#CACACA;
+}
+
+.container-login .field input:focus{
+    border-bottom-width: 2px;
+}
+
+.container-login .eye-icon{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.container-login .field button{
+    color: #fff;
+    background-color: #0171d3;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.container-login .field button:hover{
+    background-color: #016dcb;
+}
+
+.container-login .form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container-login .form-link span,
+.container-login .form-link a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+.container-login .form a{
+    color: #0171d3;
+    text-decoration: none;
+}
+
+.container-login .form a:hover{
+    text-decoration: underline;
+}
+
+.container-login .line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+
+.container-login .line::before{
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    color: #8b8b8b;
+    padding: 0 15px;
+}
+
+.container-login .media-options {
+    display: box;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-login .media-options .media-option {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+} 
+
+.container-login .media-options .facebook-button{
+    display: flex;
+    color: #fff;
+    background-color: #0171d3;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+} 
+
+.container-login .media-options .facebook-button i{
+    margin-right: 15px ;
+}
+
+/* .container-login .media-options .google-button{
+    display: flex;
+    color: #757575;
+    background-color: white;
+    transition: all 0.3s ease;
+    border-radius: 6px;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+
+} 
+
+
+.container-login .media-options .google-button i{
+    margin-right: 15px ;
+} */
+
+.container-login .media-options .google-button {
+    cursor: pointer;
+    transition: background-color .3s, box-shadow .3s;
+        
+    padding: 12px 16px 12px 42px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+    
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuNiA5LjJsLS4xLTEuOEg5djMuNGg0LjhDMTMuNiAxMiAxMyAxMyAxMiAxMy42djIuMmgzYTguOCA4LjggMCAwIDAgMi42LTYuNnoiIGZpbGw9IiM0Mjg1RjQiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik05IDE4YzIuNCAwIDQuNS0uOCA2LTIuMmwtMy0yLjJhNS40IDUuNCAwIDAgMS04LTIuOUgxVjEzYTkgOSAwIDAgMCA4IDV6IiBmaWxsPSIjMzRBODUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNNCAxMC43YTUuNCA1LjQgMCAwIDEgMC0zLjRWNUgxYTkgOSAwIDAgMCAwIDhsMy0yLjN6IiBmaWxsPSIjRkJCQzA1IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNOSAzLjZjMS4zIDAgMi41LjQgMy40IDEuM0wxNSAyLjNBOSA5IDAgMCAwIDEgNWwzIDIuNGE1LjQgNS40IDAgMCAxIDUtMy43eiIgZmlsbD0iI0VBNDMzNSIgZmlsbC1ydWxlPSJub256ZXJvIi8+PHBhdGggZD0iTTAgMGgxOHYxOEgweiIvPjwvZz48L3N2Zz4=);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 12px 11px;
+}
+
+.container-login .media-options .google-button:hover {
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 2px 4px rgba(0, 0, 0, .25);
+}
+
+.container-login .media-options .google-button:active {
+    background-color: #eeeeee;
+}
+
+.container-login .media-options .google-button:active {
+    outline: none;
+        box-shadow: 
+        0 -1px 0 rgba(0, 0, 0, .04),
+        0 2px 4px rgba(0, 0, 0, .25),
+        0 0 0 3px #c8dafc;
+}
+
+.container-login .media-options .google-button:disabled {
+    filter: grayscale(100%);
+    background-color: #ebebeb;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .container-login .form{
+        padding: 20px 10px;
+    }
+    
+}
+

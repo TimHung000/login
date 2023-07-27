@@ -1,0 +1,39 @@
+# Dependency directories
+node_modules/
+dist/
+build/
+
+# IDE-specific files and directories
+.vscode/
+.idea/
+*.iml
+*.log
+
+# Compiled output and cache files
+*.js
+*.jsx
+*.js.map
+*.d.ts
+*.d.ts.map
+*.tsx
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependency lock files
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# Coverage directory
+coverage/
+
+# Compiled TypeScript files
+*.tsbuildinfo
+
+# OS-specific files
+Thumbs.db
+.DS_Store
