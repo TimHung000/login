@@ -130,39 +130,6 @@
     border-radius: 6px;
 } 
 
-.container-login .media-options .facebook-button{
-    display: flex;
-    color: #fff;
-    background-color: #0171d3;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    border-radius: 6px;
-    align-items: center;
-    justify-content: center;
-} 
-
-.container-login .media-options .facebook-button i{
-    margin-right: 15px ;
-}
-
-/* .container-login .media-options .google-button{
-    display: flex;
-    color: #757575;
-    background-color: white;
-    transition: all 0.3s ease;
-    border-radius: 6px;
-    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-
-} 
-
-
-.container-login .media-options .google-button i{
-    margin-right: 15px ;
-} */
-
 .container-login .media-options .google-button {
     cursor: pointer;
     transition: background-color .3s, box-shadow .3s;
