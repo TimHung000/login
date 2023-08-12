@@ -9,15 +9,6 @@ build/
 *.iml
 *.log
 
-# Compiled output and cache files
-*.js
-*.jsx
-*.js.map
-*.d.ts
-*.d.ts.map
-*.tsx
-*.tsbuildinfo
-
 # Environment variables
 .env
 .env.local

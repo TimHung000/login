@@ -38,23 +38,3 @@ include/
 lib/
 lib64
 pyvenv.cfg
-
-#######################
-#       React         #
-#######################
-
-# Dependency directories
-node_modules/
-dist/
-build/
-
-# Dependency lock files
-yarn.lock
-package-lock.json
-pnpm-lock.yaml
-
-# Coverage directory
-coverage/
-
-# Compiled TypeScript files
-*.tsbuildinfo
